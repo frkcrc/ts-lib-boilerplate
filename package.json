@@ -2,7 +2,10 @@
   "name": "ts-lib-boilerplate",
   "version": "0.0.1",
   "description": "Simple Typescript library boilerplate.",
+  "main": "./dist/lib/es5/index.js",
+  "module": "./dist/lib/es6/index.js",
   "scripts": {
+    "prepare": "npm run build",
     "build": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json"
   },
   "repository": {
