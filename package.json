@@ -1,0 +1,18 @@
+{
+  "name": "ts-lib-boilerplate",
+  "version": "0.0.1",
+  "description": "Simple Typescript library boilerplate.",
+  "scripts": {
+    "build": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frkcrc/ts-lib-boilerplate.git"
+  },
+  "author": "Francesco Ciracì <frkcrc@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/frkcrc/ts-lib-boilerplate#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
