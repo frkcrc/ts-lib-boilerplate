@@ -4,10 +4,14 @@ This is a simple boilerplate for a Typescript project meant to be used as a star
 
 It's based on the setup described in [this](https://www.youtube.com/watch?v=vRmLTZyq57U) video.
 
+Includes:
+- Setup for Typescript build to ES5 and ES6.
+- Support for installation as library from git.
+- Testing with jest and ts-jest.
+
 ## Todo
 
 - Add dist/package.json for distribution on NPM.
-- Setup testing support in the boilerplate.
 
 ## Installing from git
 
